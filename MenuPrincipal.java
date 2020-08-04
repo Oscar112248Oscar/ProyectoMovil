@@ -39,7 +39,7 @@ CardView peliculas;
     public  void mapa(View view){
 
         Intent miIntent= new Intent(getApplicationContext(),Ubicacion.class);
-        startActivity(miIntent);
+        getApplicationContext().startActivity(miIntent);
 
     }
 
