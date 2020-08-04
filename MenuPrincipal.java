@@ -31,7 +31,7 @@ CardView peliculas;
     public  void estrenos(View view){
 
         Intent miIntent= new Intent(getApplicationContext(),Estrenos.class);
-        startActivity(miIntent);
+        getApplicationContext().startActivity(miIntent);
 
 
     }
@@ -39,13 +39,13 @@ CardView peliculas;
     public  void mapa(View view){
 
         Intent miIntent= new Intent(getApplicationContext(),Ubicacion.class);
-        startActivity(miIntent);
+        getApplicationContext().startActivity(miIntent);
 
     }
 
     public void reservar(View v){
         Intent miIntent=new Intent( getApplicationContext(), Reserva.class );
-        startActivity( miIntent );
+        getApplicationContext().startActivity( miIntent );
     }
 
     @Override
